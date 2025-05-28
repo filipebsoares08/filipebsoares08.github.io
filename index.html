@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filipe Soares</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Dev Icon Fonts -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- CSS do Projeto -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Teste</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Filipe Soares</h2>
+            <img id="bio-image" src="img/istockphoto-2011866283-612x612.jpg" alt="Filipe Soares">
+            <p>Olá, me chamo Filipe e sou <span class="highlight">DevOps Jr</span>.</p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:filipe.soares@teste.com">filipe.soares@teste.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Filipe Soares</h1>
+            <p id="title"><span class="highlight">DevOps Jr</span></p>
+            <p class="description">Sou analista de infraestrutura, atuo com servidores <span class="highlight">windows e linux</span>, monitoria com <span class="highlight">zabbix</span>, firewall <span class="highlight">pfsense</span> e sou estudante de <span class="highlight">DevOps</span>.</p>
+            <p class="description">Trabalho também com <span class="highlight">Terraform</span> e cloud <span class="highlight">AWS</span>.</p>
+            <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas Habilidades</h2>
+            <p class="description">Conheça as minhas certificações e conhecimentos:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Certificações</p>
+                    <i class="devicon-terraform-plain colored"></i>
+                    <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Conhecimentos</p>
+                    <i class="devicon-terraform-plain colored"></i>
+                    <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                    <i class="devicon-google-plain"></i>
+                    <i class="devicon-cloudflare-plain colored"></i>
+                    <i class="devicon-docker-plain colored"></i>
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-github-original colored"></i>
+                    <i class="devicon-grafana-plain colored"></i>
+                    <i class="devicon-jira-plain colored"></i>
+                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-pfsense-original colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Ion Icons do Projeto -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
